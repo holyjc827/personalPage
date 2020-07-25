@@ -1,0 +1,15 @@
+{
+  "gallery":
+  [
+    {
+      "title":"PersonalPage",
+      "image":"Personal.png",
+      "skill":["Javascript"]
+    },
+    {
+        "title":"CalorieCounter",
+        "image":"coloriecounter.png",
+        "skill":["Javascript", "Node.js","SQL"]
+    }
+  ]
+}
