@@ -4,6 +4,7 @@ $(document).ready(function(){
         var titles = [];
         var names =[];
         var src = [];
+        var link = [];
         // accessing gallery.json file through JQuery
         $.getJSON( "gallery.json", function(data) {
             var skills = [];
@@ -12,6 +13,7 @@ $(document).ready(function(){
                 skills_item.push(val.skill);
                 names.push(val.title);
                 src.push(val.image);
+                link.push(val.link);
                 });
             // The aforementioned values can be multiple in an array. This will bring all the values into one array.
             $.each(skills_item, function(i){
@@ -55,13 +57,13 @@ $(document).ready(function(){
                 }
 
                 for(let k = count-1; k > -1 ; k--){
-                    titles.push('<article class = "project" id ="' + names[index[k]] +'"><img src= "'+ src[index[k]]+ '"></article>')
+                    titles.push('<article class = "project" id ="' + names[index[k]] +'"><a href = "'+link[k]+'"><img src= "'+ src[index[k]]+ '"></a></article>')
                 }
 
                 $('.gallery_image').append(titles.join(""));
                 titles = [];
 
-//                 allowing the title of the project to appear when mouse is hovered over each image gallery.
+                // allowing the title of the project to appear when mouse is hovered over each image gallery.
 //                $('.gallery_image .project').hover(
 //                    function()
 //                    {

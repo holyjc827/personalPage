@@ -4,12 +4,14 @@
     {
       "title":"PersonalPage",
       "image":"Personal.png",
-      "skill":["Javascript"]
+      "skill":["Javascript"],
+      "link":"https://github.com/holyjc827/personalPage"
     },
     {
         "title":"CalorieCounter",
         "image":"coloriecounter.png",
-        "skill":["Javascript", "Node.js","SQL"]
+        "skill":["Javascript", "Node.js","SQL"],
+        "link":"#"
     }
   ]
 }
