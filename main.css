@@ -1,0 +1,202 @@
+.nanum {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.blackcap {
+  font-family: 'Bungee', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top{
+  position:fixed;
+/*  background-color: white;*/
+  display: inline-block;
+  width: 100%;
+}
+
+.nav{
+    position:fixed;
+    top:75%;
+    left:3%;
+}
+
+.sm {
+    position:fixed;
+    top:75%;
+    right:8%;
+}
+
+.sm li {
+  display: table;
+  list-style-type: none;
+  line-height: 26px;
+  font-size:13px;
+}
+
+.sm li:hover{
+    transform: translateX(-5px);
+    transition: 0.5s;
+}
+
+.nav li{
+  display: table;
+  list-style-type: none;
+  line-height: 26px;
+  font-size:13px;
+}
+
+.nav li:hover{
+  transform: translateX(5px);
+  transition: 0.5s;  
+}
+
+.CV {
+  display: inline-block;
+  padding-left: 850px;
+  font-size: 20px;
+  transform: translateY(-10px);
+}
+
+#CV {
+    color: black;
+}
+
+#CV:hover{
+   text-decoration: none;
+   cursor : pointer;
+   color: #ff6069; 
+}
+
+.title{
+  color: #ff8080;
+  margin: 40px;
+  display: inline-block;
+}
+
+.title:hover{
+    text-decoration: none;
+    cursor : pointer;
+    color: #ff6069;
+}
+
+.nav_link{
+  color:black
+}
+
+.nav_link:hover{
+  text-decoration: none;  
+  cursor : pointer;
+  color:#ff8080; 
+} 
+
+.active{
+    color:#ff8080;
+}
+
+.main_content{
+    width: 70%;
+    margin-left:190px;
+    padding-left:70px;
+}
+
+#about {
+    padding-top: 220px;
+}
+
+.main_content_edu {
+    width: 70%;
+    margin-left:190px;
+    padding-left:70px;
+    padding-top:150px;
+    padding-bottom:100px;
+}
+
+.main_content h1{
+    font-weight: 300;
+}
+
+.subtitle{
+    color:gray;
+    font-weight: 100;
+}
+
+.work{
+    margin-top: 100px;
+}
+.edu_content, .work_content{
+    border-bottom: 0.5px dotted #000000;
+    margin-bottom: 30px;
+}
+
+.edu_title{
+    font-size: 1.6rem;
+    margin-bottom:30px;
+    color:#ff8080;
+}
+
+.edu_subtitle{
+    font-size:1.1rem;
+    font-weight: 700;
+}
+
+.edu_subtitle_2{
+    font-size:0.8rem;
+    font-weight:400;
+}
+
+.edu_wrapper{
+    display:inline-block;
+    width: 70%;
+}
+
+.date{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.gallery{
+    width:100%;
+}
+
+.gallery_button_row{
+    padding-top:140px;
+    padding-bottom:25px;
+}
+
+.gallery_button{
+    display: inline-block;
+    width: 10%;
+    margin: 0px 10px;
+    text-align: center;
+	border: 1px solid #ff8080;
+	border-radius: 15px;
+}
+
+.gallery_button:hover{
+    cursor: pointer;
+    background-color: #ff8080;
+    color: #FFFFFF;
+}
+
+.project{
+    display: inline-block;
+    width: 45%;
+    height: 340px;
+    background-color:white;
+    margin: 10px 10px;
+    border-radius:5px;
+    box-shadow: 1px 1px 3px;
+}
+
+.project:hover{
+    cursor:pointer;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.project img{
+    border-radius:5px;
+}

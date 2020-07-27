@@ -57,7 +57,7 @@ $(document).ready(function(){
                 }
 
                 for(let k = count-1; k > -1 ; k--){
-                    titles.push('<article class = "project" id ="' + names[index[k]] +'"><a href = "'+link[k]+'"><img src= "'+ src[index[k]]+ '"></a></article>')
+                    titles.push('<article class = "project" id ="' + names[index[k]] +'"><a href = "'+link[index[k]]+'"><img src= "'+ src[index[k]]+ '"></a></article>')
                 }
 
                 $('.gallery_image').append(titles.join(""));
