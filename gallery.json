@@ -12,6 +12,18 @@
         "image":"coloriecounter.png",
         "skill":["Javascript", "Node.js","SQL"],
         "link":"#"
+    },
+    {
+        "title":"SimpleBreakReminder",
+        "image":"BreakReminder.png",
+        "skill":["Javascript", "HTML","CSS","ChromeAPI"],
+        "link":"https://github.com/holyjc827/extension"
+    },
+    {
+        "title":"GUI-Password-Generator",
+        "image":"Gui.png",
+        "skill":["Python"],
+        "link":"https://github.com/holyjc827/passwordgen"
     }
   ]
 }

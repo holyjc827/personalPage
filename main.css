@@ -99,7 +99,8 @@
 .main_content{
     width: 70%;
     margin-left:190px;
-    padding-left:70px;
+    padding-left:100px;
+    padding-top:65px;
 }
 
 #about {
@@ -199,4 +200,6 @@
 
 .project img{
     border-radius:5px;
+    width: 358px;
+    height: 340px;
 }

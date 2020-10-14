@@ -62,21 +62,6 @@ $(document).ready(function(){
 
                 $('.gallery_image').append(titles.join(""));
                 titles = [];
-
-                // allowing the title of the project to appear when mouse is hovered over each image gallery.
-//                $('.gallery_image .project').hover(
-//                    function()
-//                    {
-//                        $(this).append('<p>' + $(this).attr('id')+ '</p>');
-//                        $(this).find('img').css("opacity","0.3");
-//                        $(this).find('p').css("opacity","1");
-//
-//                    },
-//                    function()
-//                    {
-//                        $('.pic p').remove();
-//                        $(this).find('img').css("opacity","1");
-//                    });
                 });
         });
 });
